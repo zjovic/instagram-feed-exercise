@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content {
+    background-color: #eaeaea;
+    padding: 50px;
+}
+
+.card {
+    width: 500px;
+    background: white;
+    margin: 0 auto 50px;
+}
+
+.card:last-of-type {
+    margin: 0 auto;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.card-date {
+    color: lightgray;
+}
+
+.card-photo {
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-description {
+    padding: 10px 20px;
+    border-top: 1px solid #f4f4f4;
+}
